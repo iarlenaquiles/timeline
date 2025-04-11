@@ -1,0 +1,21 @@
+.timeline {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 200px;
+    overflow-x: auto;
+    background: #f8f9fa;
+  }
+  
+  .timeline-item {
+    position: absolute;
+    height: 30px;
+    background-color: #4dabf7;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
