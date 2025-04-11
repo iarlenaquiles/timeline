@@ -18,9 +18,10 @@ This project is a **React-based timeline component** that visualizes items in a 
 
 ### 1. Clone the repository
 
-```bash
+````
 git clone https://github.com/iarlenaquiles/timeline.git
-cd timeline```
+cd timeline
+````
 
 ### 2.  Install dependencies
 
@@ -29,22 +30,24 @@ cd timeline```
 
 ### 3. Run the development server
 
-```npm run start````
+```npm run start```
+
 Then open http://localhost:1234/ or http://localhost:3000/ in your browser.
 
+---
+# 🧠 How It Works
 
-🧠 How It Works
+- Items are sorted by start date.
 
-Items are sorted by start date.
+- Each item is placed in the first lane where it does not overlap with the last item in that lane.
 
-Each item is placed in the first lane where it does not overlap with the last item in that lane.
+- The component renders all items in a scrollable horizontal layout.
 
-The component renders all items in a scrollable horizontal layout.
+- Zoom controls adjust the pixels-per-day scale.
 
-Zoom controls adjust the pixels-per-day scale.
+---
 
-
-📁 Project Structure
+# 📁 Project Structure
 
 ```
 src/
@@ -59,7 +62,9 @@ src/
 └── index.js                 # React root
 ```
 
-📄 Example Timeline Item
+---
+
+# 📄 Example Timeline Item
 
 ```
 {
